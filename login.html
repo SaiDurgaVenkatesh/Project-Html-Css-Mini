@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fb{
+            border: 3px solid blue;
+            width: 150px;
+        }
+        .nv{
+            border: 3px solid blue;
+            width: 150px;
+        }
+        .md{
+            border: 1px solid black;
+            width: 450px;
+            height: 500px;
+            margin: 20px auto;
+            background-image: url(https://th.bing.com/th/id/OIP.YPE-D4AUQVh37dheiuj6CwHaE8?w=1470&h=980&rs=1&pid=ImgDetMain);
+            /* background: rgba(0,0,0,0.4),rgba(0,0,0,0.7),url("https://th.bing.com/th?id=OIP.KeRduNXcbnI6lIpUsQzq3gHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2"); */
+            
+        }
+        .mm{
+            display: flex;
+            gap: 20px;
+        }
+        .or{
+            margin-left: 120px;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        input{
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 220px;
+
+        }
+        button{
+            width: 140px;
+            border-radius: 6px;
+            height: 40px;
+            background-color: yellowgreen;
+            color: white;
+        }
+        button:hover{
+            background-color:   #e63900;
+        }
+        .kk{
+            margin-left: 40px;
+            padding: 20px;
+        }
+        .fb:hover{
+            background-color:#80bfff;
+        }
+        .nv:hover{
+            background-color:  #993399;
+        }
+        .ip{
+            margin-top: 20px;
+        }
+        .head{
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Gill Sans", sans-serif;
+        }
+        .para{
+            font-size: 19.5px;
+        }
+        label{
+            font-size: 19px;
+        }
+        @media screen and (min-width:320px) and (max-width:375px) {
+            .md{
+                width: 100%;
+            }
+            .head{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: "Gill Sans", sans-serif;
+        }
+        .para{
+            font-size: 18px;
+        }
+        .or{
+            margin-left: 60px;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+            
+        }
+      
+      
+      
+    </style>
+</head>
+<body>
+    <div class="md">
+        <div class="kk">
+            <h2 class="head">Welcome to AJIO</h2>
+            <p class="para">Join / Sign In using</p>
+            <div class="mm">
+            <div class="fb"> <a href="https://www.facebook.com/"><img style=" margin-left: 40px;" src="https://th.bing.com/th/id/OIP.YBdpYxDSg6AtMUKXHme2MQHaHa?w=195&h=195&c=7&r=0&o=5&dpr=1.4&pid=1.7" width="50px"></a></div>
+            <div class="nv"> <a href="https://www.google.co.in/"><img style="margin-left: 40px;" src="https://www.bing.com/th?id=OIP.D6P-BO32wCApcPIIjt6p5wAAAA&w=206&h=206&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2" width="50px"></a></div>
+            </div>
+            <div class="or">------or-----</div>
+            <div class="ip">
+                <label for="number">Enter Mobile Number * </label><br><br><br>
+                <input type="tel" id="number" name="number" pattern="[0-9]{10}">
+            </div><br><br>
+
+            <div class="pp"> <a href="./index.html" ><button> CONTINUE</button></a></div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
